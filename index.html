@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezenacja elegancka</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="dokument_G">
+
+    
+        <form method="POST">
+            <fieldset>
+                <legend>Liczenie czasu od do...</legend>
+                W niebieskich tabelkach wpisz Datę w formacie DD-MM-RRRR, liczbowo<br>
+                <br>
+            <label for="wejscie">Wybierz datę wejściową</label>
+                <div><input type="text" id="wejscie" name="wejscie" value="01-02-2000"></div>
+
+            <label for="wyjscie">Wybierz datę wyjściową</label><br>
+                <div ><input type="text" id="wyjscie"  name="wyjscie" value="21-07-2020"></div><br>
+
+                <p id="komentarz" class="komentarz"></p>
+            </fieldset>
+       </form><br>    
+            <button type="button" onclick="wywolacz()"> wyślij </button><br><br>
+            <div id="output_div">
+            <p>Różnica dat w:</p><br>
+            <!--wyświetliwanie-->
+            <label>łącznej ilości sekund</label><br><br>
+              <p class="czas" id="sekund">0</p>
+            <label>łącznej ilości minut</label><br><br>
+             <p class="czas" id="minut">0</p>
+            <label>łącznej ilości godzin</label><br><br>
+              <p class="czas" id="godzin">0</p>
+            <label>łącznej ilości Dni</label><br><br>
+              <p class="czas" id="dni">0</p>
+            </div>
+
+            
+       
+    </div>
+       <script src="script.js"></script>
+
+</body>
+</html>

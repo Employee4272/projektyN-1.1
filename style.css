@@ -1,0 +1,24 @@
+.czas{
+    font-size: xx-large;
+    text-align: center;
+}
+#dokument_G{
+    border: 5px;
+    border-style: outset;
+
+}
+#wejscie{
+background-color:lightblue;
+}
+#wyjscie{
+background-color:lightblue;
+}
+#output_div{
+    margin: 10px;
+}
+.komentarz{
+    color: red;
+}
+.dobry_format{
+    color:green;
+}
